@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  #pageWrapper {
+    position: relative;
+    background-color: rgb(252, 134, 134);
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  a {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  
+  form{
+    position: relative;
+    top: 5rem;
+    width: 80%;
+    padding: 4%;
+    background-color: rgb(53, 96, 126);
+    font-weight: bold;
+    font-size: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  
+  form textarea, form input {
+    margin: 2rem;
+    padding: 0.7rem;
+    border: 6px solid black;
+  }
+  
+  .container {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1000px;
+    position: relative;
+  }
+  section {
+    min-height: 100vh;
+    position: relative;
+  }
+  
+  .btn {
+    padding: 0.7rem;
+    background-color: rgb(255, 238, 2);
+    border: 6px solid black;
+    font-weight: 900;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  
+  header {
+    background-color: #d3f06c;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1;
+  }
+  @media (max-width: 600px) {
+    header {
+      flex-wrap: wrap;
+      text-align: center;
+    }
+    #nav-bar {
+      padding-top: 1.5rem;
+    }
+  }
+  #header-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    align-items: left;
+  }
+  ul li{
+    list-style-type: none;
+    display: inline;
+    margin: 2rem;
+  }
+  
+  
+  .nav-link {
+  text-decoration: none;
+  color: black;
+  font-weight: 900;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;;
+  }
+  
+  /*++++++++++home ++++++++++++++++++++++++++++++++++++++++++++*/
+  #home {
+    background-color: #2f86a6;
+    position: relative;
+  }
+  
+  
+  .signUpForm {
+    color: white;
+    background-color: rgb(53, 96, 126);
+    margin: 7rem auto 10rem auto;
+  }
+  #title {
+    width: 80%;
+    margin: auto auto;
+  }
+  
+  h1 {
+    font-size: 6rem;
+    line-height: 9rem;
+    text-align: center;
+  }
+  @media (max-width: 600px) {
+    h1 {
+      font-size: 200%;
+      line-height: 8rem;
+    }
+  }
+  
+  
+  /*++++++++++about ++++++++++++++++++++++++++++++++++++++++++++*/
+  .section-title {
+    width:50%;
+    margin:0 auto;
+    padding:8rem;
+    text-align: center;
+    font-size:2rem;
+  }
+  
+  #about {
+    background-color: #34be82;
+  }
+  
+  #portfolio {
+    background-color: #2fdd92;
+  }
+  
+  #contact {
+    background-color: hsl(59, 90%, 51%);
+  }
+  .contactForm{
+    background-color: hsl(59, 90%, 70%);
+    color:black;
+    margin:0 auto;
+  }
+  
+  

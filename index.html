@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="pageWrapper">
+    <header id="header">
+      <div class="logo">
+        <img
+          id="header-img"
+          src="https://images.pexels.com/photos/1279813/pexels-photo-1279813.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+          alt="rainbow colors"
+      />
+      </div>
+      <nav id="nav-bar">
+        <ul>
+          <li><a class="nav-link" href="#home">home</a></li>
+          <li><a class="nav-link" href="#about">about</a></li>
+          <li><a class="nav-link" href="#portfolio">portfolio</a></li>
+          <li><a class="nav-link" href="#contact">contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="container">
+      <section id="home">
+       
+        <form
+        id="form"
+          class="signUpForm"
+          action="https://www.freecodecamp.com/email-submit"
+        >
+          <label for="email">Sign up for my Newsletter</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Your Email"
+          />
+          <input class="btn" id="submit" type="submit"></input>
+        </form>
+        <div id="title">
+          <h1>WELCOME TO THIS AMAZING LANDING PAGE</h1>
+        </div>
+      </div>
+      </section>
+      <div class="container">
+      <section id="about">
+        <div class="section-title">
+          <h2>ABOUT</h2>
+        </div>
+      </section>
+     <div class="container">
+      <section id="portfolio">
+        <div class="section-title">
+          <h2>PORTFOLIO</h2>
+        </div>
+        <iframe
+          id="video"
+          height="250"
+          frameborder="0"
+          allowfullscreen
+          src="https://www.youtube.com/embed/tgbNymZ7vqY"
+          frameborder="0"
+        ></iframe>
+      </section>
+    </div>
+<div class="container">
+    <section id="contact">
+      <div class="section-title">
+        <h2>CONTACT</h2>
+      </div>
+        <form class="contactForm" id="form" action="https://www.freecodecamp.com/email-submit">
+          <label for="message">Do you have any questions?</label>
+          <textarea
+            name="message"
+            id="message"
+            placeholder="Your Message"
+            cols="30"
+            rows="10"
+          ></textarea>
+          <button class="btn" id="send" type="submit">Send</button>
+        </form>
+      </section>
+    </div>
+    </main>
+    <footer></footer>
+  </div>
+  </body>
+</html>
